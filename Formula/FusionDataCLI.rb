@@ -5,31 +5,31 @@
 class Fusiondatacli < Formula
   desc "Terminal browser for autodesk platform services (aps) manufacturing data model"
   homepage "https://github.com/schneik80/FusionDataCLI"
-  url "https://github.com/schneik80/FusionDataCLI/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "9dc27d1058b73bbff2ee1911a78ad1edbc4726e3b4b5c9f8abe7575b6cca106f"
+  url "https://github.com/schneik80/FusionDataCLI/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "f80dc5f8aecd7618b8e405bcff34e4aa6db943c049358369085f499933ff5ae0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.0/FusionDataCLI-0.3.0-darwin-amd64.tar.gz"
-      sha256 "e14b7ebd2d2d7a6dc97761d0de5821eddf98d138158d1e43a9b83fdf0f6468f0"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.1/FusionDataCLI-0.3.1-darwin-amd64.tar.gz"
+      sha256 "630ec2a81de186548d075e49314b61215e395eaea2ca19d8f0e268f0efd00800"
     end
 
     on_arm do
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.0/FusionDataCLI-0.3.0-darwin-arm64.tar.gz"
-      sha256 "56175bd152898e3729359b7326b22483b114f7931cb335acad2096e579cc335c"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.1/FusionDataCLI-0.3.1-darwin-arm64.tar.gz"
+      sha256 "48782b5b62e2f045da7fe688951912bc346a0e6a416af8a5ceabf1b14fdca74c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.0/FusionDataCLI-0.3.0-linux-amd64.tar.gz"
-      sha256 "8ad3118c7e9f9c022b93169a6860eafde3b9502937e7f5cd3eb49c6243570dda"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.1/FusionDataCLI-0.3.1-linux-amd64.tar.gz"
+      sha256 "9d9a8c0135ec42c3bedf528ffeb6c71c2c0542906b69afb8228f1c6908a140fd"
     end
 
     on_arm do
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.0/FusionDataCLI-0.3.0-linux-arm64.tar.gz"
-      sha256 "d01f269c5955bbf0cb9023a4f3767c0ac52ec262d0fea4d1ab238a2768a63067"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v0.3.1/FusionDataCLI-0.3.1-linux-arm64.tar.gz"
+      sha256 "78a95a8b3f2ee83dba017be0a30d0f635a752b0432b489a9acc334f29c34e3ba"
     end
   end
 
