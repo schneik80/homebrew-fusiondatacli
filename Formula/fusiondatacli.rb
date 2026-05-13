@@ -5,21 +5,21 @@
 class Fusiondatacli < Formula
   desc "Terminal browser for Autodesk Platform Services Manufacturing Data Model"
   homepage "https://github.com/schneik80/FusionDataCLI"
-  version "5.0.0"
+  version "5.1.0"
   license "GPL-3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.0.0/FusionDataCLI-5.0.0-darwin-amd64.tar.gz"
-      sha256 "59478d09df448e6bdc8ad7a0bbeb2c5233460f6d41d17544126d007e90415c6c"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.1.0/FusionDataCLI-5.1.0-darwin-amd64.tar.gz"
+      sha256 "178cf6770b41ca5a422bb9f8f07966a564390106e4973837d181794cf04e11d2"
 
       define_method(:install) do
         bin.install "fusiondatacli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.0.0/FusionDataCLI-5.0.0-darwin-arm64.tar.gz"
-      sha256 "5dd43cb0f185607fcf2f5bbe9d30ca8e59a1003b215429b9bb8cd972f5ecf164"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.1.0/FusionDataCLI-5.1.0-darwin-arm64.tar.gz"
+      sha256 "abc61474848b057a9df3713644712ae6a192fda052bb2addcd0686f51cedfdb6"
 
       define_method(:install) do
         bin.install "fusiondatacli"
@@ -29,15 +29,15 @@ class Fusiondatacli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.0.0/FusionDataCLI-5.0.0-linux-amd64.tar.gz"
-      sha256 "ebd551a41a7afd0d34bd94f50c401e427bef79509e5a957ed532d56533c52601"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.1.0/FusionDataCLI-5.1.0-linux-amd64.tar.gz"
+      sha256 "8e29a1c98917eb925c6d0b5845203cc9f20b9c3c62176ee6c9cb567ff738a011"
       define_method(:install) do
         bin.install "fusiondatacli"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.0.0/FusionDataCLI-5.0.0-linux-arm64.tar.gz"
-      sha256 "446f84d04dc7e51457e92b8558d1a65b6ebb09ee81bcdc302e7ae0eaf90a9b8a"
+      url "https://github.com/schneik80/FusionDataCLI/releases/download/v5.1.0/FusionDataCLI-5.1.0-linux-arm64.tar.gz"
+      sha256 "6110aa917f38d377c8e086226a3729bb3c9c5f528144b53279e2d7b49956e0ba"
       define_method(:install) do
         bin.install "fusiondatacli"
       end
